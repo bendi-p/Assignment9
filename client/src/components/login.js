@@ -3,8 +3,8 @@ import { useNavigate } from 'react-router-dom';
 import fetchData from '../services';
 
 function Login({setIsLoggedIn, setProfileEmail}) {
-    var [email, setEmail] = useState('daveritchie03@northeastern.edu');
-    var [password, setPassword] = useState('q1w2e3r4Q!');
+    var [email, setEmail] = useState('');
+    var [password, setPassword] = useState('');
     var navigate = useNavigate();
     return (
       <div>
